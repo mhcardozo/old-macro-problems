@@ -35,8 +35,8 @@ jobs:
       - run: npm ci
       - name: Build
         env:
-          # Repo is hosted at https://<user>.github.io/old-macro-problems/
-          BASE_PATH: /old-macro-problems/
+          # Repo is hosted at https://<user>.github.io/obras-app/
+          BASE_PATH: /obras-app/
         run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:

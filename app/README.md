@@ -44,7 +44,7 @@ El build genera el service worker y los archivos estáticos en `dist/`.
 Para que la PWA quede en una sub-ruta (como GitHub Pages), pasá `BASE_PATH`:
 
 ```bash
-BASE_PATH=/old-macro-problems/ npm run build
+BASE_PATH=/obras-app/ npm run build
 ```
 
 ## Deploy a GitHub Pages
@@ -56,7 +56,7 @@ Para activarlo (una sola vez):
 
 1. En GitHub: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 2. Pushear cualquier cambio dentro de `app/`. El workflow corre y publica.
-3. La app queda en `https://<usuario>.github.io/old-macro-problems/`.
+3. La app queda en `https://<usuario>.github.io/obras-app/`.
 
 Una vez online, abrila desde el iPhone con Safari → **Compartir → Agregar a pantalla de inicio**.
 
