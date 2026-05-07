@@ -36,7 +36,7 @@ jobs:
       - name: Build
         env:
           # Repo is hosted at https://<user>.github.io/obras-app/
-          BASE_PATH: /obras-app/
+          BASE_PATH: /obra-app/
         run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
